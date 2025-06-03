@@ -55,5 +55,30 @@ footer{
     flex-wrap: wrap;
     justify-content: space-around;
 }
+@media (max-width: 500px) {
+    section div h2 {
+        text-align: center;
+        margin-left: 0;
+    }
+    .conteinerfotos {
+        flex-direction: column;
+        align-items: center;
+    }
+    .conteinerfotos img {
+        width: 90%;
+        height: auto;
+    }
+    .conteinercatalogo {
+        width: 100%;
+    }
+    section p {
+        text-align: center;
+    }
+    .conteinercatalogo img {
+        width: 90%;
+        height: auto;
+    }
+
+}
 
 
